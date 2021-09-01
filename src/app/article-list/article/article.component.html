@@ -1,0 +1,5 @@
+<div class="article-preview" [routerLink]="['/articles',article.id]">
+    <h3>{{article.title | titlecase}}</h3>
+    <p>par {{ article.userId}}</p>
+    <p>{{ article.body | slice:0:100 }}</p>
+</div>
