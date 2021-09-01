@@ -4,3 +4,7 @@
     padding: 2em;
     width:80vw;
 }
+
+.article-preview:hover {
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
 <h2>Liste des Articles !</h2>
 
 <div class="flex">
-    <app-article [article]="article" *ngFor="let article of articles"></app-article>
+    <app-article [article]="article" *ngFor="let article of articles" [routerLink]="['/articles',article.id]"></app-article>
 </div>
